@@ -19,4 +19,4 @@ jobs:
     - name: Install template package
       run: |
         python -m pip install --user .
-        ~/.local/bin/pip-module-template-main
+        ~/.local/bin/pip-sample-module-main
