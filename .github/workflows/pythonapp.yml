@@ -19,4 +19,6 @@ jobs:
     - name: Install template package
       run: |
         python -m pip install --user .
+    - name: Run entry point
+      run: |
         ~/.local/bin/pip-sample-module-main
